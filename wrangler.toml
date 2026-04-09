@@ -1,5 +1,4 @@
 name = "orvana-docs"
-main = "build/"
 compatibility_date = "2026-04-09"
 
 [assets]
