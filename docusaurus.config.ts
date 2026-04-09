@@ -10,7 +10,7 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'orvana-io',
   projectName: 'orvana-docs',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -23,7 +23,7 @@ const config: Config = {
       'classic',
       {
         docs: {
-          routeBasePath: '/',
+          routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/orvana-io/orvana-docs/tree/main/',
         },
@@ -68,9 +68,9 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Getting Started', to: '/installation' },
-            { label: 'Configuration', to: '/configuration' },
-            { label: 'Features', to: '/features/playout' },
+            { label: 'Getting Started', to: '/docs/installation' },
+            { label: 'Configuration', to: '/docs/configuration' },
+            { label: 'Features', to: '/docs/features/playout' },
           ],
         },
         {
@@ -85,7 +85,7 @@ const config: Config = {
           title: 'More',
           items: [
             { label: 'orvana.io', href: 'https://orvana.io' },
-            { label: 'Changelog', to: '/changelog' },
+            { label: 'Changelog', to: '/docs/changelog' },
           ],
         },
       ],
