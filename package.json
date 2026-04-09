@@ -28,6 +28,12 @@
     "@docusaurus/types": "3.8.0",
     "typescript": "~5.2.2"
   },
+  "resolutions": {
+    "webpack": "5.94.0"
+  },
+  "overrides": {
+    "webpack": "5.94.0"
+  },
   "engines": {
     "node": ">=18.0"
   }
