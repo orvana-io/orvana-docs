@@ -23,10 +23,9 @@ const config: Config = {
       'classic',
       {
         docs: {
-          routeBasePath: 'docs',
+          routeBasePath: '/',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/orvana-io/orvana-docs/tree/main/',
-          // cache-bust: 1
         },
         blog: false,
         theme: {
@@ -69,9 +68,9 @@ const config: Config = {
         {
           title: 'Docs',
           items: [
-            { label: 'Getting Started', to: '/docs/installation' },
-            { label: 'Configuration', to: '/docs/configuration' },
-            { label: 'Features', to: '/docs/features/playout' },
+            { label: 'Getting Started', to: '/installation' },
+            { label: 'Configuration', to: '/configuration' },
+            { label: 'Features', to: '/features/playout' },
           ],
         },
         {
@@ -86,7 +85,7 @@ const config: Config = {
           title: 'More',
           items: [
             { label: 'orvana.io', href: 'https://orvana.io' },
-            { label: 'Changelog', to: '/docs/changelog' },
+            { label: 'Changelog', to: '/changelog' },
           ],
         },
       ],

@@ -29,4 +29,4 @@ Orvana's TCE engine can compress or expand audio by up to ±4% without any audib
 
 The backtiming engine works backwards from a hard marker to determine exactly when each preceding element must start. If the queue is too long, elements are compressed. If too short, they are expanded. The marker is always hit on time.
 
-See [Backtiming](/docs/pro/backtiming) for full documentation.
+See [Backtiming](/pro/backtiming) for full documentation.
