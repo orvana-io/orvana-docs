@@ -26,6 +26,7 @@ const config: Config = {
           routeBasePath: 'docs',
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/orvana-io/orvana-docs/tree/main/',
+          // cache-bust: 1
         },
         blog: false,
         theme: {
@@ -89,7 +90,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Orvana. Always in orbit around your station.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Orvana. Always in orbit.`,
     },
     prism: {
       theme: prismThemes.github,
