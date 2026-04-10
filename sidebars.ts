@@ -37,6 +37,7 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Administration',
+      collapsed: false,
       items: [
         'admin/users',
         'admin/authentication',
