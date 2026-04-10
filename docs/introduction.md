@@ -37,6 +37,6 @@ It's designed to give station operators confidence: start a show, walk away, and
 
 ## Next Steps
 
-- [Install Orvana](/installation) — get up and running in minutes
-- [Configuration](/configuration) — set up your station
-- [Features](/features/playout) — explore what Orvana can do
+- [Install Orvana](/docs/installation) — get up and running in minutes
+- [Configuration](/docs/configuration) — set up your station
+- [Features](/docs/features/playout) — explore what Orvana can do
