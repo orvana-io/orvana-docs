@@ -1,4 +1,4 @@
-name = "docs-orvana-io"
+name = "orvana-docs"
 compatibility_date = "2026-04-09"
 compatibility_flags = ["nodejs_compat"]
 
